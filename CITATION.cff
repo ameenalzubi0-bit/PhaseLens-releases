@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use PhaseLens in your research, please cite it as below."
+title: "PhaseLens"
+abstract: >-
+  A free, offline Windows application for powder X-ray diffraction analysis:
+  import, background and K-alpha2 handling, peak search, phase identification
+  and quantification, with every assumption stated and stored.
+authors:
+  - family-names: "Al-Zu'bi"
+    given-names: "Amin"
+    orcid: "https://orcid.org/0009-0004-3069-9622"
+repository-code: "https://github.com/ameenalzubi0-bit/PhaseLens-releases"
+url: "https://ameenalzubi0-bit.github.io/PhaseLens-releases/"
+keywords:
+  - x-ray-diffraction
+  - powder-diffraction
+  - crystallography
+  - phase-identification
+  - materials-science
+version: "1.0.0"
+date-released: "2026-11-23"
