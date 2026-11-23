@@ -13,6 +13,7 @@
     <img src="https://img.shields.io/github/v/release/ameenalzubi0-bit/PhaseLens-releases?label=release&color=8a5a2b&style=flat-square" alt="Latest release">
   </a>
   <img src="https://img.shields.io/github/downloads/ameenalzubi0-bit/PhaseLens-releases/total?label=downloads&color=555555&style=flat-square" alt="Downloads">
+  <a href="https://doi.org/10.5281/zenodo.24478793"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24478793.svg" alt="DOI"></a>
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D6?style=flat-square" alt="Platform: Windows">
   <img src="https://img.shields.io/badge/license-Closed%20Beta%20v1.0-555555?style=flat-square" alt="Licence: Closed Beta v1.0">
   <a href="https://github.com/ameenalzubi0-bit/PhaseLens-releases/issues">
@@ -250,7 +251,7 @@ PhaseLens 1.0.0 is free and closed source, released under the **PhaseLens Closed
 
 If you use PhaseLens in your work, please cite it (Help > About PhaseLens > Copy citation):
 
-> Al-Zu'bi, A. A. A. PhaseLens: X-ray diffraction analysis software, version 1.0.0.
+> Al-Zu'bi, A. A. A. PhaseLens: X-ray diffraction analysis software, version 1.0.0. https://doi.org/10.5281/zenodo.24478793
 
 Third-party components keep their own licences; the installed folder holds `licenses/THIRD-PARTY-NOTICES.txt`.
 
