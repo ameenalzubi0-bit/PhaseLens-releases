@@ -19,3 +19,11 @@ keywords:
   - materials-science
 version: "1.0.0"
 date-released: "2026-11-23"
+doi: "10.5281/zenodo.24478794"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24478793"
+    description: "Concept DOI: always resolves to the latest archived version."
+  - type: doi
+    value: "10.5281/zenodo.24478794"
+    description: "Version-specific DOI for 1.0.0 documentation."
