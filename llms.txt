@@ -1,0 +1,16 @@
+# PhaseLens
+
+> PhaseLens is a free, offline Windows application for powder X-ray diffraction (XRD) analysis: import, background and K-alpha2 handling, peak search, phase identification, quantification and reproducible reports. It never assumes the wavelength, axis or units, and stores every assumption with the result.
+
+PhaseLens is closed source (PhaseLens Closed Beta License v1.0). This repository holds installers, release files, documentation and the update manifest only; there is no application source code.
+
+## Docs
+
+- [Website](https://ameenalzubi0-bit.github.io/PhaseLens-releases/): overview, methods, validation, download.
+- [README](https://github.com/ameenalzubi0-bit/PhaseLens-releases/blob/main/README.md): features, methods with equations, validation results, known limitations, roadmap, FAQ.
+- [Known limitations](https://github.com/ameenalzubi0-bit/PhaseLens-releases/blob/main/README.md#known-limitations): stated on purpose.
+
+## Releases
+
+- [Latest release](https://github.com/ameenalzubi0-bit/PhaseLens-releases/releases/latest): Windows setup, SHA256SUMS and signature.
+- [All releases](https://github.com/ameenalzubi0-bit/PhaseLens-releases/releases)

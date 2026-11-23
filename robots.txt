@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ameenalzubi0-bit.github.io/PhaseLens-releases/sitemap.xml
