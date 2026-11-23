@@ -10,12 +10,13 @@
 
 <p align="center">
   <a href="https://github.com/ameenalzubi0-bit/PhaseLens-releases/releases/latest">
-    <img src="https://img.shields.io/github/v/release/ameenalzubi0-bit/PhaseLens-releases?label=latest%20release&color=8a5a2b" alt="Latest release">
+    <img src="https://img.shields.io/github/v/release/ameenalzubi0-bit/PhaseLens-releases?label=release&color=8a5a2b&style=flat-square" alt="Latest release">
   </a>
-  <img src="https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D6" alt="Platform: Windows">
-  <img src="https://img.shields.io/badge/license-Closed%20Beta%20v1.0-555555" alt="Licence: Closed Beta v1.0">
+  <img src="https://img.shields.io/github/downloads/ameenalzubi0-bit/PhaseLens-releases/total?label=downloads&color=555555&style=flat-square" alt="Downloads">
+  <img src="https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D6?style=flat-square" alt="Platform: Windows">
+  <img src="https://img.shields.io/badge/license-Closed%20Beta%20v1.0-555555?style=flat-square" alt="Licence: Closed Beta v1.0">
   <a href="https://github.com/ameenalzubi0-bit/PhaseLens-releases/issues">
-    <img src="https://img.shields.io/badge/issues-report%20one-b23b3b" alt="Report an issue">
+    <img src="https://img.shields.io/badge/issues-report%20one-b23b3b?style=flat-square" alt="Report an issue">
   </a>
 </p>
 
@@ -26,12 +27,34 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/main-window-light.png" width="780" alt="PhaseLens main window, light theme">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/main-window-dark.png">
+    <img src="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/main-window-light.png" width="860" alt="PhaseLens main window">
+  </picture>
 </p>
+
+<p align="center">
+  <a href="#what-the-program-does">Features</a> &nbsp;|&nbsp;
+  <a href="#download-and-verify">Download</a> &nbsp;|&nbsp;
+  <a href="#validation-results">Validation</a> &nbsp;|&nbsp;
+  <a href="#known-limitations">Limitations</a> &nbsp;|&nbsp;
+  <a href="#faq">FAQ</a> &nbsp;|&nbsp;
+  <a href="https://github.com/ameenalzubi0-bit/PhaseLens-releases/issues/new/choose">Support</a>
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center" width="25%"><b>Offline analysis</b><br><sub>Patterns and results never leave your computer</sub></td>
+    <td align="center" width="25%"><b>No silent assumptions</b><br><sub>Radiation, axis and units are never guessed</sub></td>
+    <td align="center" width="25%"><b>Reproducible</b><br><sub>Every result stores its settings and versions</sub></td>
+    <td align="center" width="25%"><b>Report-ready</b><br><sub>PDF, HTML, JSON, CSV and publication figures</sub></td>
+  </tr>
+</table>
 
 ---
 
-## Table of contents
+<details>
+<summary><b>Table of contents</b></summary>
 
 - [What is PhaseLens?](#what-is-phaselens)
 - [What the program does](#what-the-program-does)
@@ -46,6 +69,8 @@
 - [Roadmap](#roadmap)
 - [FAQ](#faq)
 - [Developer](#developer)
+
+</details>
 
 ## What is PhaseLens?
 
@@ -146,25 +171,16 @@ The method card stores the integration table and an "unexplained" area so the fr
 
 ## Screenshots
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/main-window-dark.png" width="780" alt="Main window, dark theme">
-</p>
-<p align="center"><em>Main window, dark theme. Light and dark themes share the same layout.</em></p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/import-dialog.png" width="780" alt="Import dialog">
-</p>
-<p align="center"><em>Import dialog: what was read, and what you must still confirm.</em></p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/peak-list.png" width="780" alt="Peak list">
-</p>
-<p align="center"><em>Peak list with the detected reflections.</em></p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/plot-reference.png" width="780" alt="Publication-style diffraction plot">
-</p>
-<p align="center"><em>Publication plot style: inward ticks, full frame, observed pattern in ink, calculated in copper, dashed background, difference panel and phase tick rows.</em></p>
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/main-window-dark.png" alt="Main window, dark theme"><br><sub>Main window, dark theme</sub></td>
+    <td align="center" width="50%"><img src="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/import-dialog.png" alt="Import dialog: what was read, and what you confirm"><br><sub>Import dialog: what was read, and what you confirm</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/peak-list.png" alt="Peak list with the detected reflections"><br><sub>Peak list with the detected reflections</sub></td>
+    <td align="center" width="50%"><img src="https://raw.githubusercontent.com/ameenalzubi0-bit/PhaseLens-releases/main/docs/plot-reference.png" alt="Publication plot style: inward ticks, full frame, difference panel, phase tick rows"><br><sub>Publication plot style: inward ticks, full frame, difference panel, phase tick rows</sub></td>
+  </tr>
+</table>
 
 The images are the interface design references that the application is built to match.
 
@@ -207,6 +223,9 @@ The value must equal the one in `SHA256SUMS`:
 `SHA256SUMS` is signed (RSA 3072, SHA-256) and `SHA256SUMS.sig` is the signature. The program verifies the same signature before it installs an update; a download that fails the check is deleted.
 
 3. Run the setup. It installs per user. The first start unpacks the bundled reference release (about 209 000 files, 1.36 GB) and takes a few minutes.
+> [!NOTE]
+> Installation and activation need an internet connection. The first start unpacks the reference release and takes a few minutes.
+
 4. Enter the serial key you received and activate online (see [Licence](#licence-and-citation)).
 
 **Updates.** On each start PhaseLens asks this repository for the latest release in the background and offers the new version if there is one. No licence, hardware, project or setting data is sent. The check can be turned off in Options, and Help > Check for updates runs it on demand.
@@ -261,15 +280,40 @@ These are stated in the release notes and kept visible on purpose.
 
 ## FAQ
 
-**Does PhaseLens send my data anywhere?** No XRD data, results or file names leave the computer. The program contacts only the licensing service (installation check, activation, periodic check, feedback you send, optional anonymous statistics) and this repository (update check and download).
+<details>
+<summary><b>Does PhaseLens send my data anywhere?</b></summary>
 
-**Why does it ask for the radiation source?** Converting 2-theta to d or q, and every search, depends on the wavelength. PhaseLens will not assume one.
+No XRD data, results or file names leave the computer. The program contacts only the licensing service (installation check, activation, periodic check, feedback you send, optional anonymous statistics) and this repository (update check and download).
 
-**Why does the Report dialog have no page preview?** It is not built in 1.0. Open the written HTML or PDF to check it.
+</details>
 
-**Can I trust the percentages?** Phase fractions are estimates with the stated assumptions and a stated uncertainty. A set of fractions that sums to 100 percent does not prove the absence of amorphous content.
+<details>
+<summary><b>Why does it ask for the radiation source?</b></summary>
 
-**I found a problem.** Open an [issue](https://github.com/ameenalzubi0-bit/PhaseLens-releases/issues) and attach the diagnostics package (Help menu).
+Converting 2-theta to d or q, and every search, depends on the wavelength. PhaseLens will not assume one.
+
+</details>
+
+<details>
+<summary><b>Why does the Report dialog have no page preview?</b></summary>
+
+It is not built in 1.0. Open the written HTML or PDF to check it.
+
+</details>
+
+<details>
+<summary><b>Can I trust the percentages?</b></summary>
+
+Phase fractions are estimates with the stated assumptions and a stated uncertainty. A set of fractions that sums to 100 percent does not prove the absence of amorphous content.
+
+</details>
+
+<details>
+<summary><b>I found a problem.</b></summary>
+
+Open an [issue](https://github.com/ameenalzubi0-bit/PhaseLens-releases/issues) and attach the diagnostics package (Help menu).
+
+</details>
 
 [Back to top](#table-of-contents)
 

@@ -1,0 +1,14 @@
+name: Feature request
+description: Suggest an improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What do you need to do, and what stops you?
+    validations:
+      required: true
+  - type: textarea
+    id: ref
+    attributes:
+      label: Method or literature reference, if scientific
