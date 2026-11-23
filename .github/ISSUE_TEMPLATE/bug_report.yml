@@ -1,0 +1,29 @@
+name: Bug report
+description: Something does not work or gives a wrong result
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: PhaseLens version
+      description: Help > About PhaseLens
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: diag
+    attributes:
+      label: Diagnostics
+      description: Attach the diagnostics package (Help menu). It contains no XRD data unless you add it.
