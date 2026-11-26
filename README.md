@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="https://github.com/ameenalzubi0-bit/PhaseLens-releases/releases/latest">
-    <img src="https://img.shields.io/badge/Download-PhaseLens%201.0.1%20for%20Windows-8a5a2b?style=for-the-badge" alt="Download PhaseLens">
+    <img src="https://img.shields.io/badge/Download-PhaseLens%201.0.0%20for%20Windows-8a5a2b?style=for-the-badge" alt="Download PhaseLens">
   </a>
 </p>
 
@@ -208,17 +208,17 @@ Corundum as a minor phase is overestimated in the round robin (for example 10.3 
 
 ## Download and verify
 
-1. Open the [latest release](https://github.com/ameenalzubi0-bit/PhaseLens-releases/releases/latest) and download `PhaseLens-Setup-1.0.1.exe`.
+1. Open the [latest release](https://github.com/ameenalzubi0-bit/PhaseLens-releases/releases/latest) and download `PhaseLens-Setup-1.0.0.exe`.
 2. Optional check of the download. In PowerShell:
 
 ```powershell
-(Get-FileHash .\PhaseLens-Setup-1.0.1.exe -Algorithm SHA256).Hash.ToLower()
+(Get-FileHash .\PhaseLens-Setup-1.0.0.exe -Algorithm SHA256).Hash.ToLower()
 ```
 
 The value must equal the one in `SHA256SUMS`:
 
 ```text
-7e9533da169ada4bc45bd3141087f0657e08f9482a4790e7fe8fff118a079fb8  PhaseLens-Setup-1.0.1.exe
+943d30e2182f0437a6bda19749d89aca0d58a7307b133b0a5cee11cb558400b5  PhaseLens-Setup-1.0.0.exe
 ```
 
 `SHA256SUMS` is signed (RSA 3072, SHA-256) and `SHA256SUMS.sig` is the signature. The program verifies the same signature before it installs an update; a download that fails the check is deleted.
@@ -251,7 +251,7 @@ PhaseLens 1.0.0 is free and closed source, released under the **PhaseLens Closed
 
 If you use PhaseLens in your work, please cite it (Help > About PhaseLens > Copy citation):
 
-> Al-Zu'bi, A. A. A. PhaseLens: X-ray diffraction analysis software, version 1.0.1. https://doi.org/10.5281/zenodo.24478793
+> Al-Zu'bi, A. A. A. PhaseLens: X-ray diffraction analysis software, version 1.0.0. https://doi.org/10.5281/zenodo.24478793
 
 Third-party components keep their own licences; the installed folder holds `licenses/THIRD-PARTY-NOTICES.txt`.
 
