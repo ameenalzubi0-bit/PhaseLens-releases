@@ -1,11 +1,11 @@
 {
   "title": "PhaseLens: X-ray diffraction analysis software (release documentation)",
   "upload_type": "software",
-  "description": "Documentation and screenshots for PhaseLens 1.0.1, a free, offline Windows application for powder X-ray diffraction analysis. The program is closed source and distributed as a signed installer from the GitHub Releases page of this repository; the documentation in this archive is licensed CC-BY-4.0.",
+  "description": "Documentation and screenshots for PhaseLens 1.0.0, a free, offline Windows application for powder X-ray diffraction analysis. The program is closed source and distributed as a signed installer from the GitHub Releases page of this repository; the documentation in this archive is licensed CC-BY-4.0.",
   "creators": [
     {"name": "Al-Zu'bi, Amin", "orcid": "0009-0004-3069-9622"}
   ],
-  "version": "1.0.1",
+  "version": "1.0.0",
   "access_right": "open",
   "license": "cc-by-4.0",
   "keywords": ["x-ray diffraction", "powder diffraction", "crystallography", "phase identification", "materials science"],
