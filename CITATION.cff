@@ -17,9 +17,9 @@ keywords:
   - crystallography
   - phase-identification
   - materials-science
-version: "1.0.0"
-date-released: "2026-11-23"
-doi: "10.5281/zenodo.24478794"
+version: "1.0.1"
+date-released: "2026-11-26"
+doi: "10.5281/zenodo.24478793"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.24478793"
