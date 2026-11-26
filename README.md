@@ -218,7 +218,7 @@ Corundum as a minor phase is overestimated in the round robin (for example 10.3 
 The value must equal the one in `SHA256SUMS`:
 
 ```text
-7e9533da169ada4bc45bd3141087f0657e08f9482a4790e7fe8fff118a079fb8  PhaseLens-Setup-1.0.1.exe
+d87c078828cc2c03713f3aaabd5b47dbbf6c3594abcb1691d76e6b0ab2dee1b4  PhaseLens-Setup-1.0.1.exe
 ```
 
 `SHA256SUMS` is signed (RSA 3072, SHA-256) and `SHA256SUMS.sig` is the signature. The program verifies the same signature before it installs an update; a download that fails the check is deleted.
